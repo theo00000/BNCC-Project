@@ -9,10 +9,30 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
   <link rel="manifest" href="assets/img/site.webmanifest">
+  <link rel="stylesheet" href="sign-up.css">
   <title>Document</title>
 </head>
 
-<body>
+<body id="background">
+  <div class="container">
+    <form class="form">
+      <h2 class="title">Register</h2>
+      <label>
+        <input type="text" class="input" placeholder="Firstname" required>
+      </label>
+      <label>
+        <input type="text" class="input" placeholder="Lastname" required>
+      </label>
+      <label>
+        <input type="text" class="input" placeholder="Username" required>
+      </label>
+      <label>
+        <input type="password" class="input" placeholder="Password" required>
+      </label>
+      <button type="submit" class="submit">Submit</button>
+      <p class="signin">Already have an account? <a href="login.html">Sign in</a></p>
+    </form>
+  </div>
 
 </body>
 
