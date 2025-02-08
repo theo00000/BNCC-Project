@@ -63,26 +63,52 @@
             <div class="card">
               <img src="assets/img/fullstack javascript.webp" alt="Fullstack Javascript" width="30%" class="gambar">
               <h4>Fullstack Javascript</h4>
-              <p>Pelajari pengembangan web menggunakan Javascript secara menyeluruh. Kursus ini terdiri atas 50 pertemuan.</p>
+              <p>Pelajari pengembangan web menggunakan Javascript secara menyeluruh. Kursus ini terdiri atas 50
+                pertemuan.</p>
+              <button>Enroll</button>
             </div>
             <div class="card">
               <img src="assets/img/C lang.png" alt="C Language" width="30%" class="gambar">
               <h4>C Language</h4>
               <p>Pahami dasar pemrograman dengan bahasa C. Kursus ini terdiri atas 23 pertemuan.</p>
+              <button>Enroll</button>
             </div>
             <div class="card">
               <img src="assets/img/web development.png" alt="Web Development" width="30%" class="gambar">
               <h4>Web Development</h4>
               <p>Bangun website interaktif dari nol hingga mahir. Kursus ini terdiri atas 34 pertemuan.</p>
+              <button>Enroll</button>
             </div>
           </div>
         </section>
+        <section>
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="process.php" method="POST">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
 
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
 
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126917.73447455888!2d106.69059814999999!3d-6.2009945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f796418b2bfb%3A0x927eb4b965c4f282!2sBina%20Nusantara%20Computer%20Club!5e0!3m2!1sen!2sid!4v1707372429875!5m2!1sen!2sid"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
       </div>
     </div>
-
-
   </main>
 
 
@@ -90,7 +116,7 @@
     <section id="contact_us" class="contact-us">
       <h3>Contact Us</h3>
       <p>Email: contact@bncc.com | Instagram: @bnccbinus | Phone: +62 851 xxx</p>
-
+      <p></strong> Palmerah, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11480</p></p>
     </section>
     <p>Front-End Class &#169; February 2025, Bina Nusantara Computer Club</p>
   </footer>
